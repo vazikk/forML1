@@ -8,4 +8,6 @@ train:
   random_state: 42
 
 evaluate:
-  metrics: ['accuracy', 'f1']
+  metrics:
+  - accuracy
+  - f1
